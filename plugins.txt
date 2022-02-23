@@ -1,0 +1,44 @@
+# Apache Ant
+ant:latest
+
+# Configure to run specified authorization
+authorize-project:latest
+
+# Build Timeout
+build-timeout:latest
+
+# Configuration as Code
+configuration-as-code:latest
+
+# Credentials Binding
+credentials-binding:latest
+
+# Email Extension
+email-ext:latest
+
+# Git Operations
+git:latest
+
+# GitHub Authentication
+github-oauth:latest
+
+# Mailer
+mailer:latest
+
+# Matrix Authorization Strategy
+matrix-auth:latest
+
+# Pipeline View
+pipeline-stage-view:latest
+
+# SSH Build Agents
+ssh-slaves:latest
+
+# Timestamper
+timestamper:latest
+
+# Pipeline Orchestrate Automation
+workflow-aggregator:latest
+
+# Workspace Cleanup
+ws-cleanup:latest
