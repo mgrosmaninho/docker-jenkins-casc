@@ -1,4 +1,6 @@
 FROM jenkins/jenkins:latest
+LABEL description="Automate Jenkins setup with Docker and Jenkins Configuration as Code"
+LABEL maintainer="Manuel Gomes Rosmaninho - mgrosmaninho@hotmail.com"
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 ENV CASC_JENKINS_CONFIG /var/jenkins_home/casc.yaml
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
